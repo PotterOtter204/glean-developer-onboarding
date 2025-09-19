@@ -39,3 +39,29 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated data files
+*_crawl_*.json
+
+
+# Temporary/utility scripts
+index-building.py
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
