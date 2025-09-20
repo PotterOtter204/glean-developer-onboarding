@@ -1,0 +1,13 @@
+{
+  "apphosting": {
+    "backendId": "glean-developer-onboarding",
+    "rootDir": "/",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "functions"
+    ]
+  }
+}
