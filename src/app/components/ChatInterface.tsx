@@ -169,7 +169,7 @@ useEffect(() => {
   );
 
   return (
-    <div className="flex flex-col items-center justify-center w-screen min-h-screen  bg-gray-100">
+    <div className="flex flex-col items-center justify-center w-screen min-h-screen  bg-[#f9f9f9]">
       {/* Messages Container */}
       <div className="flex-1 overflow-y-auto md:max-w-4xl md:w-full w-screen px-4 py-6 pb-32">
         {messages.length === 0 && (
