@@ -10,10 +10,6 @@ interface Message {
 }
 
 export default function ChatInterface() {
-const testMarkdown = `
-Short answer: run search requests from your FastAPI backend to Glean's Client API (POST /rest/api/v1/search) using a Glean-issued token (user-scoped is recommended), then return/render the results in your app — or embed the Web SDK in the frontend if you want a prebuilt UI. See examples and notes below.\n\n1) Pick the integration style\n- Server-side proxy / API: FastAPI receives user queries, calls Glean's Client API search endpoint, and returns results (good for keeping tokens secret and adding app logic). [source](https://developers.glean.com/api/client-api/search/search)  \n-
-`;
-
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -177,7 +173,7 @@ useEffect(() => {
             <div className="text-center text-gray-600 mb-8">
               <Bot className="w-12 h-12 mx-auto mb-4 text-gray-400" />
               <h2 className="text-lg font-medium mb-2 text-gray-700">Glean Developer Onboarding Assistant</h2>
-              <p className="text-sm text-gray-500">Ask me about Glean's APIs, search functionality, or development best practices.</p>
+              <p className="text-sm text-gray-500">Ask me about Glean&apos;s APIs, search functionality, or development best practices.</p>
             </div>
           </div>
         )}
