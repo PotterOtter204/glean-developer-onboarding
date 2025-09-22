@@ -315,7 +315,7 @@ export async function POST(req: NextRequest) {
             const toolCalls: AccumulatedToolCall[] = [];
             console.log('conversationMessages', conversationMessages);
             const response = await openai.chat.completions.create({
-              model: 'openai/gpt-5-mini',
+              model: 'x-ai/grok-4-fast:free',
               messages: conversationMessages,
               tools,
               tool_choice: 'auto',

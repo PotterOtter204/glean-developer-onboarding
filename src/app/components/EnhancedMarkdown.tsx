@@ -91,7 +91,7 @@ export default function EnhancedMarkdown({ content, className = '' }: EnhancedMa
             </ul>
           ),
           ol: ({ children }) => (
-            <ol className="list-decimal list-inside text-gray-700  space-y-1">
+            <ol className="list-decimal list-inside text-gray-700">
               {children}
             </ol>
           ),
